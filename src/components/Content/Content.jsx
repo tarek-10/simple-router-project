@@ -11,7 +11,7 @@ function Content() {
   //   let data = `Hello Mr : ${myname}  Your Age is  ${myage}`;
   //   return data;
   // }
-  function setName(name, age) {
+  function setNameAndAge(name, age) {
     myname = name;
     myage = age;
     let data = { name: myname, age: myage };
@@ -39,7 +39,7 @@ function Content() {
                 <button
                   to="/details"
                   className="btn btn-primary"
-                  onClick={() => setName("tarek mohamed", 36)}
+                  onClick={() => setNameAndAge("shady mohamed", 40)}
                 >
                   Go somewhere
                 </button>
