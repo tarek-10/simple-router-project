@@ -1,0 +1,16 @@
+.master-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(48, 46, 46);
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
